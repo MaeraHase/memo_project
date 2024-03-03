@@ -9,8 +9,8 @@ button {
     border: none;
     padding: 5px 10px;
     margin-left: 10px;
-    background: #ff6565;
-    color: #fff;
+    background: #ff61da;
+    color: #ffffff;
     cursor: pointer;
 }
 button.incomplete-button {
@@ -20,7 +20,7 @@ li {
     display: flex;
     align-items: center;
     padding: 10px 0;
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #ffffff;
 }
 
 li p {
@@ -29,14 +29,14 @@ li p {
 }
 
 .add-item-area {
-    background: #e7e7e7;
+    background: #ffcdef;
     padding: 10px;
     margin: 20px 0;
     border-radius: 10px;
 }
 
 .item-area-incomplete {
-    background: #edffe5;
+    background: #f0e1ff;
     padding: 10px;
     margin: 20px 0;
     border-radius: 10px 10px 0 0;
@@ -48,7 +48,7 @@ li p {
     font-weight: bold;
     border-radius: 10px 10px 0 0;
     margin: -10px;
-    background: #04945d;
+    background: #a71aff;
     padding: 10px;
 }
 
@@ -57,7 +57,7 @@ li p {
 }
 
 .item-area-complete {
-    background: #fff3e3;
+    background: #d6d8ff;
     padding: 10px;
     margin: 20px 0;
     border-radius: 10px 10px 0 0;
@@ -69,7 +69,7 @@ li p {
     font-weight: bold;
     border-radius: 10px 10px 0 0;
     margin: -10px;
-    background: #c79b49;
+    background: #651eff;
     padding: 10px;
 }
 
@@ -88,6 +88,7 @@ header{
     background-color: #fff;
     border-bottom: 1px solid #ccc;
     text-align: center;
+    font-size: 20px;
     
 }
 main{
@@ -95,9 +96,11 @@ main{
     position:relative;
 }
 footer{
-    background-color: #fff;
-    border-bottom:1px solid #ccc;
+    background-color: hsl(0, 0%, 100%);
+    /* border-bottom:0px solid #ccc; */
     text-align: center;
+    min-height: 50px;
+
 }
 /* p{
     font-size:200%;
@@ -109,8 +112,8 @@ ul{
     padding: 0;
     border-top: 1px solid #000000;
     display:table;  /* 定義 */
-    table-layout: fixed;
-    width:100%;
+    /* table-layout: fixed;
+    width:100%; */
 }
 li{
     list-style-type:none;
@@ -120,7 +123,7 @@ li{
     cursor: pointer;
 }
 li:hover{
-    background: #0066CC;
+    background: #5b42ff;
     color:#fff;
 }
 textarea{

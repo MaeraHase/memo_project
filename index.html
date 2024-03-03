@@ -15,7 +15,7 @@
     </header>
 
     <main>
-         <textarea id="text_area"></textarea>
+         
          <div class="todo-list">
           <div class="add-item-area">
            <input type="text" class="add-item">
@@ -49,8 +49,8 @@
             }
             // リスト作成
             _createItem(text){
-                const liElm = document.creareElement('li');
-                const pElm = document.creareElement('p');
+                const liElm = document.createElement('li');
+                const pElm = document.createElement('p');
                 const deleteButton = document.createElement('button');
                 const completeButton = document.createElement('button');
 
@@ -87,7 +87,7 @@
             const backButton = document.createElement('button');
 
             backButton.classList.add('complete-button');
-            backButton.innerText = '戻る';
+            backButton.innerText = '戻す';
             pElm.innerText = text;
             // 戻るボタンクリック
             backButton.addEventListener('click', (e) => {
